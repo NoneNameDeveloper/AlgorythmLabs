@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArifmeticLibrary", "ArifmeticLibrary.csproj", "{BA2838F7-0661-4697-B9F7-B9528A5C3EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2838F7-0661-4697-B9F7-B9528A5C3EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2838F7-0661-4697-B9F7-B9528A5C3EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2838F7-0661-4697-B9F7-B9528A5C3EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2838F7-0661-4697-B9F7-B9528A5C3EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F27DE209-407E-4C0A-8330-F92D55C442F5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "42lScfu25dYADLrR4H2tvSUCYgG8eiihxTRhU4N1ESYoCSIBDlJN1iYWTnz5iOcGGKENiinPoZscZaNlTXoaKw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\ArifmeticCalculator.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Не удалось найти сведения о проекте для \"C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticLibrary\\ArifmeticLibrary.csproj\". Если вы используете Visual Studio, причина может заключаться в том, что проект выгружен или не является частью текущего решения. В этом случае выполните восстановление из командной строки. В противном случае причина может быть связана с тем, что файл проекта является недопустимым или отсутствуют целевые объекты, необходимые для восстановления.",
+      "libraryId": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticLibrary\\ArifmeticLibrary.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

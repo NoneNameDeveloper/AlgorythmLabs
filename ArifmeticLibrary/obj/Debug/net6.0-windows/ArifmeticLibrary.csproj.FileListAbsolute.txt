@@ -1,0 +1,12 @@
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\bin\Debug\net6.0-windows\ArifmeticLibrary.deps.json
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\bin\Debug\net6.0-windows\ArifmeticLibrary.dll
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\bin\Debug\net6.0-windows\ArifmeticLibrary.pdb
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.csproj.AssemblyReference.cache
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.AssemblyInfoInputs.cache
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.AssemblyInfo.cs
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.csproj.CoreCompileInputs.cache
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.dll
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\refint\ArifmeticLibrary.dll
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ArifmeticLibrary.pdb
+C:\Users\yurad\source\repos\ArifmeticCalculator\ArifmeticLibrary\obj\Debug\net6.0-windows\ref\ArifmeticLibrary.dll
