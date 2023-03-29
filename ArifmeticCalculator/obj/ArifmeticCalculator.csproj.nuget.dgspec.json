@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\ArifmeticCalculator.csproj": {}
+    "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\AlgorythmLabs\\ArifmeticCalculator\\ArifmeticCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\ArifmeticCalculator.csproj": {
+    "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\AlgorythmLabs\\ArifmeticCalculator\\ArifmeticCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\ArifmeticCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\AlgorythmLabs\\ArifmeticCalculator\\ArifmeticCalculator.csproj",
         "projectName": "ArifmeticCalculator",
-        "projectPath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\ArifmeticCalculator.csproj",
+        "projectPath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\AlgorythmLabs\\ArifmeticCalculator\\ArifmeticCalculator.csproj",
         "packagesPath": "C:\\Users\\yurad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticCalculator\\obj\\",
+        "outputPath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\AlgorythmLabs\\ArifmeticCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,7 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {
-              "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticLibrary\\ArifmeticLibrary.csproj": {
-                "projectPath": "C:\\Users\\yurad\\Desktop\\2_СЕМЕСТР\\Алгоритмы и Алгоритмические языки\\Laboratories\\ArifmeticLibrary\\ArifmeticLibrary.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

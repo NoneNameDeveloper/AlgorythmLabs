@@ -9,13 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArifmeticLibrary\ArifmeticLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="ArifmeticConditionsLibrary">
-      <HintPath>..\ArifmeticConditionsLibrary\ArifmeticConditionsLibrary\bin\Release\net6.0-windows\ArifmeticConditionsLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="ArifmeticLibrary">
       <HintPath>..\ArifmeticLibrary\bin\Release\net6.0-windows\ArifmeticLibrary.dll</HintPath>
     </Reference>
