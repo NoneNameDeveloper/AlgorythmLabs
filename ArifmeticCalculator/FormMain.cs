@@ -39,5 +39,12 @@ namespace ArifmeticCalculator
 
             new FormLab4().Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            new FormLab5().Show();
+        }
     }
 }

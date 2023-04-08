@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ArifmeticCalculator/1.0.0": {
         "dependencies": {
-          "ArifmeticLibrary": "1.0.0.0"
+          "ArifmeticLibrary": "1.0.0.0",
+          "ArrayLibrary": "1.0.0.0"
         },
         "runtime": {
           "ArifmeticCalculator.dll": {}
@@ -17,6 +18,14 @@
       "ArifmeticLibrary/1.0.0.0": {
         "runtime": {
           "ArifmeticLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ArrayLibrary/1.0.0.0": {
+        "runtime": {
+          "ArrayLibrary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -31,6 +40,11 @@
       "sha512": ""
     },
     "ArifmeticLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayLibrary/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

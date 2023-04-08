@@ -40,6 +40,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -104,7 +105,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(69, 441);
+            this.button1.Location = new System.Drawing.Point(49, 444);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 46);
             this.button1.TabIndex = 6;
@@ -124,7 +125,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(259, 441);
+            this.button3.Location = new System.Drawing.Point(196, 444);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(141, 46);
             this.button3.TabIndex = 8;
@@ -134,7 +135,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(434, 441);
+            this.button4.Location = new System.Drawing.Point(343, 444);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(141, 46);
             this.button4.TabIndex = 9;
@@ -144,7 +145,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(618, 441);
+            this.button5.Location = new System.Drawing.Point(490, 444);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(141, 46);
             this.button5.TabIndex = 10;
@@ -152,11 +153,22 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(638, 444);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(141, 46);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "№5";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(841, 584);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -189,5 +201,6 @@
         private Button button3;
         private Button button4;
         private Button button5;
+        private Button button6;
     }
 }

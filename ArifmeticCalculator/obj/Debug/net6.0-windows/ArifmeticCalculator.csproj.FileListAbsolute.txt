@@ -93,3 +93,5 @@ C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритми
 C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритмические языки\AlgorythmLabs\ArifmeticCalculator\obj\Debug\net6.0-windows\ArifmeticCalculator.pdb
 C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритмические языки\AlgorythmLabs\ArifmeticCalculator\obj\Debug\net6.0-windows\ArifmeticCalculator.genruntimeconfig.cache
 C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритмические языки\AlgorythmLabs\ArifmeticCalculator\obj\Debug\net6.0-windows\ref\ArifmeticCalculator.dll
+C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритмические языки\AlgorythmLabs\ArifmeticCalculator\bin\Debug\net6.0-windows\ArrayLibrary.dll
+C:\Users\yurad\Desktop\2_СЕМЕСТР\Алгоритмы и Алгоритмические языки\AlgorythmLabs\ArifmeticCalculator\bin\Debug\net6.0-windows\ArrayLibrary.pdb

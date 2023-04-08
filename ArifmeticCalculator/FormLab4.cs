@@ -24,5 +24,6 @@ namespace ArifmeticCalculator
 
             Class1.ProcessExpressionLab4(x0, Eps, 100, dataGridView1);
         }
+
     }
 }

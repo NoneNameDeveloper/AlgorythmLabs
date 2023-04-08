@@ -12,6 +12,9 @@
     <Reference Include="ArifmeticLibrary">
       <HintPath>..\ArifmeticLibrary\bin\Release\net6.0-windows\ArifmeticLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="ArrayLibrary">
+      <HintPath>..\ArrayLibrary\ArrayLibrary\bin\Debug\net6.0-windows\ArrayLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
