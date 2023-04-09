@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace ArrayLibrary
+﻿namespace ArrayLibrary
 {
     public class Class1
     {
@@ -53,7 +51,7 @@ namespace ArrayLibrary
                 {
                     if (mas[i] < min_elem)
                     {
-                        min_elem = (int)mas[i];
+                        min_elem = Convert.ToInt32(mas[i]);
                     }
                 }
             }

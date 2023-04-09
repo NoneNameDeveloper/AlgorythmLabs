@@ -1,16 +1,4 @@
-﻿using ArifmeticLibrary;
-using ArrayLibrary;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace ArifmeticCalculator
+﻿namespace ArifmeticCalculator
 {
     public partial class FormLab5 : Form
     {
@@ -22,7 +10,7 @@ namespace ArifmeticCalculator
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new FormMain().Show();
+            new FormMain().ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
