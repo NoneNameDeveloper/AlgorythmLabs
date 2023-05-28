@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ArifmeticCalculator</RootNamespace>
+    <AssemblyName>ArifmeticCalculator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArifmeticLibrary">
+      <HintPath>..\..\ArifmeticLibrary\bin\Release\net6.0-windows\ArifmeticLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ArraysLibrary">
+      <HintPath>..\..\ArraysLibrary\ArraysLibrary\bin\Debug\ArraysLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DoubleArrayLibrary">
+      <HintPath>..\..\DoubleArrayLibrary\DoubleArrayLibrary\bin\Debug\DoubleArrayLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLab1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab1.Designer.cs">
+      <DependentUpon>FormLab1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab2.Designer.cs">
+      <DependentUpon>FormLab2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab3.Designer.cs">
+      <DependentUpon>FormLab3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab4.Designer.cs">
+      <DependentUpon>FormLab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab5.Designer.cs">
+      <DependentUpon>FormLab5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab6.Designer.cs">
+      <DependentUpon>FormLab6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab7.Designer.cs">
+      <DependentUpon>FormLab7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLab8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLab8.Designer.cs">
+      <DependentUpon>FormLab8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormLab1.resx">
+      <DependentUpon>FormLab1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab2.resx">
+      <DependentUpon>FormLab2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab3.resx">
+      <DependentUpon>FormLab3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab4.resx">
+      <DependentUpon>FormLab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab5.resx">
+      <DependentUpon>FormLab5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab6.resx">
+      <DependentUpon>FormLab6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab7.resx">
+      <DependentUpon>FormLab7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLab8.resx">
+      <DependentUpon>FormLab8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="photo_1.jpg" />
+    <Content Include="photo_2.jpg" />
+    <Content Include="photo_3.jpg" />
+    <Content Include="photo_4.jpg" />
+    <Content Include="photo_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

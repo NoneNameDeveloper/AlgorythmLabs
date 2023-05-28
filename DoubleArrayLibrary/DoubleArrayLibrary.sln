@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArifmeticCalculator", "ArifmeticCalculator\ArifmeticCalculator.csproj", "{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleArrayLibrary", "DoubleArrayLibrary\DoubleArrayLibrary.csproj", "{9C839ADA-B2D1-4EE4-B964-F4A0295C533B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{860AB39E-CFF8-4768-9EA1-DDC3236F2D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C839ADA-B2D1-4EE4-B964-F4A0295C533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C839ADA-B2D1-4EE4-B964-F4A0295C533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C839ADA-B2D1-4EE4-B964-F4A0295C533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C839ADA-B2D1-4EE4-B964-F4A0295C533B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4FF42760-CAF8-49B4-92BE-21E421430098}
+		SolutionGuid = {C94C15DA-1155-4AC8-B2B2-55F52D1A7F5D}
 	EndGlobalSection
 EndGlobal
